@@ -1,3 +1,5 @@
-# This program prints Hello, world!
+import streamlit as st
 
-print('Hello, world!')
+st.title("My First Streamlit App")
+
+st.write("Hello! Creating a simple web application useing Streamlit.")
